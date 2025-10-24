@@ -3,21 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="/src/css/reset.css" />
+    <link rel="stylesheet" href="/src/css/style.css" />
     <title>Landing Page</title>
   </head>
   <body>
     <header class="cabecalho">
       <a href="#" class="logo">
         <img
-          src="/src/images/cafe.gif"
+          src="./src/images/cafe.gif"
           alt="Imagem de Gif de Café"
           class="imagem"
         />
         <span class="titulo">Agência</span>
       </a>
 
-      <nav>
+      <nav class="navegacao">
         <ul class="menu">
           <li class="item">
             <a href="#projetos">Projetos</a>
@@ -31,53 +37,58 @@
         </ul>
       </nav>
     </header>
-    
-          <main id="projetos" class="conteudo-principal">
-            <section class="paineis">
-                <h1 class="titulo">Nossos Projetos</h1>
-                <div class="imagem-painel projeto1 mostrar"></div>
-                <div class="imagem-painel projeto2"></div>
-                <div class="imagem-painel projeto3"></div>
-            </section>
 
-            <section id="quem-somos" class="quem-somos">
-                <div class="conteudo">
-                    <div class="informacoes">
+    <main id="projetos" class="conteudo-principal">
+      <section class="paineis">
+        <h1 class="titulo">Nossos Projetos</h1>
+        <div class="imagem-painel projeto1 mostrar"></div>
+        <div class="imagem-painel projeto2"></div>
+        <div class="imagem-painel projeto3"></div>
+      </section>
 
-                        <h2 class="titulo">Quem somos</h2>
+      <section id="quem-somos" class="quem-somos">
+        <div class="conteudo">
+          <div class="informacoes">
+            <h2 class="titulo">Quem somos</h2>
 
-                        <p class="texto">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione maiores nostrum iste, aliquid quo asperiores omnis id quaerat ullam eveniet? Eveniet quibusdam unde repellat placeat exercitationem sunt fugiat nisi illo.
-                        </p>
-                    </div>
-                    <img src="/src/images/composition-12.svg" alt="personagem com celular na mão">
-                </div>
-            </section>
-          </main>
+            <p class="texto">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              maiores nostrum iste, aliquid quo asperiores omnis id quaerat
+              ullam eveniet? Eveniet quibusdam unde repellat placeat
+              exercitationem sunt fugiat nisi illo.
+            </p>
+          </div>
+          <img class="imagem"
+            src="/src/images/composition-12.svg"
+            alt="personagem com celular na mão"
+          />
+        </div>
+      </section>
+    </main>
 
-          <footer id="contato" class="rodape">
-            <nav class="navegacao">
-                <a href="#">
-                    <img src="./src/images/cafe.gif" alt="Imagem de Gif">
-                    <span class="titulo">Agência</span>
-                </a>
+    <footer id="contato" class="rodape">
+      <nav class="navegacao">
+        <a class="logo" href="#">
+          <img class="imagem" src="./src/images/cafe.gif" alt="Imagem de Gif" />
+          <span class="titulo">Agência</span>
+        </a>
 
-                <div class="redes-socias">
-                    <a href="#" class="redes-social">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
+        <div class="redes-socias">
+          <a href="#" class="redes-social">
+            <i class="fab fa-facebook-f"></i>
+          </a>
 
-                    <a href="#" class="redes-social">
-                        <i class="fab fa-instagram"></i>
-                    </a>
+          <a href="#" class="redes-social">
+            <i class="fab fa-instagram"></i>
+          </a>
 
-                    <a href="#" class="redes-social">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </div>
-            </nav>
-            <p class="copyright">Todos os direitos reservados</p>
-          </footer>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/v4-shims.min.js"></script>
+          <a href="#" class="redes-social">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </nav>
+      <p class="copyright">Todos os direitos reservados</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/v4-shims.min.js"></script>
   </body>
 </html>
