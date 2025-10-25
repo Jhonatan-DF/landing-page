@@ -30,7 +30,7 @@ body {
   transition: 0.3s ease-in-out;
 }
 
-.cabecalho .titulo:hover{
+.logo .titulo:hover{
     color: #1ed760;
 }
 
@@ -182,10 +182,11 @@ body {
 }
 
 .rodape .navegacao .logo .imagem{
-    width: 100px;
+    width: 70px;
 }
 
 .rodape .copyright{
     margin-top: 70px;
     text-align: center;
 }
+
